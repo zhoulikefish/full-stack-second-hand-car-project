@@ -2,7 +2,7 @@
 
 A comprehensive full-stack web application for used car trading, featuring intelligent price prediction, market analysis, and user management capabilities.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -14,22 +14,22 @@ A comprehensive full-stack web application for used car trading, featuring intel
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Machine Learning Models](#machine-learning-models)
-- [Contributing](#contributing)
-- [License](#license)
 
-## 🌟 Overview
+## Overview
 
 This platform provides a comprehensive solution for the used car market, integrating web scraping, machine learning-based price prediction, and a user-friendly interface for browsing and managing car listings. The system leverages data from major Chinese automotive websites to provide accurate market insights and price forecasts.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
+
 - **User Authentication & Authorization**: Secure JWT-based authentication system
 - **Car Listing Management**: Browse, search, and filter used car listings
 - **Favorites System**: Save and manage favorite car listings
 - **User Profiles**: Personalized user accounts with activity tracking
 
 ### Advanced Features
+
 - **Intelligent Price Prediction**: ML-powered price estimation based on multiple parameters
 - **Time Series Forecasting**: Predict future price trends using macroeconomic indicators
 - **Car Evaluation**: Comprehensive vehicle valuation system
@@ -39,13 +39,15 @@ This platform provides a comprehensive solution for the used car market, integra
 - **Geographic Analysis**: China map integration for regional market insights
 
 ### Data Collection
+
 - **Web Scraping**: Automated data collection from major automotive platforms
   - AutoHome
-  - Icauto 
+  - Icauto
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
+
 - **Framework**: Vue.js 2.7
 - **UI Library**: Element UI
 - **State Management**: Vuex
@@ -54,6 +56,7 @@ This platform provides a comprehensive solution for the used car market, integra
 - **Authentication**: JWT Decode
 
 ### Backend
+
 - **Runtime**: Node.js
 - **Framework**: Express.js
 - **Database**: MongoDB with Mongoose ODM
@@ -63,6 +66,7 @@ This platform provides a comprehensive solution for the used car market, integra
 - **Remote Execution**: SSH2
 
 ### Machine Learning
+
 - **Language**: Python 3.x
 - **Core Libraries**:
   - XGBoost
@@ -73,10 +77,11 @@ This platform provides a comprehensive solution for the used car market, integra
   - Joblib
 
 ### Web Scraping
+
 - **Framework**: Scrapy
 - **Data Sources**: AutoHome, Icauto
 
-##  Project Structure
+## Project Structure
 
 ```
 KeChengSheJi_Group2/
@@ -145,7 +150,7 @@ KeChengSheJi_Group2/
         └── Crawler/
 ```
 
-##  Prerequisites
+## Prerequisites
 
 - **Node.js** (v14.x or higher)
 - **npm** or **yarn**
@@ -153,7 +158,7 @@ KeChengSheJi_Group2/
 - **Python** (v3.7 or higher)
 - **pip** (Python package manager)
 
-##  Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -184,6 +189,7 @@ pip install -r requirements.txt
 ```
 
 Required Python packages:
+
 - xgboost
 - lightgbm
 - pandas
@@ -191,7 +197,7 @@ Required Python packages:
 - scikit-learn
 - joblib
 
-##  Configuration
+## Configuration
 
 ### Backend Configuration
 
@@ -212,25 +218,30 @@ Update API endpoint in `frontend/client/src/http.js` if needed:
 axios.defaults.baseURL = 'http://localhost:5000/api';
 ```
 
-##  Usage
+## Usage
 
 ### Development Mode
 
 #### Start Backend Server
+
 ```bash
 cd backend
 npm run server
 ```
+
 Backend will run on `http://localhost:5000`
 
 #### Start Frontend Development Server
+
 ```bash
 cd frontend/client
 npm run serve
 ```
+
 Frontend will run on `http://localhost:8080`
 
 #### Run Both Concurrently
+
 ```bash
 cd backend
 npm run dev
@@ -239,65 +250,68 @@ npm run dev
 ### Production Mode
 
 #### Build Frontend
+
 ```bash
 cd frontend/client
 npm run build
 ```
 
 #### Start Production Server
+
 ```bash
 cd backend
 npm start
 ```
 
-##  API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/users/register` | Register new user | No |
-| POST | `/api/users/login` | User login | No |
-| GET | `/api/users/current` | Get current user | Yes |
+| Method | Endpoint                | Description       | Auth Required |
+| ------ | ----------------------- | ----------------- | ------------- |
+| POST   | `/api/users/register` | Register new user | No            |
+| POST   | `/api/users/login`    | User login        | No            |
+| GET    | `/api/users/current`  | Get current user  | Yes           |
 
 ### Car Listing Endpoints
 
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| GET | `/api/cars` | Get all car listings | No |
-| GET | `/api/cars/:id` | Get car by ID | No |
-| POST | `/api/cars` | Create new listing | Yes |
-| PUT | `/api/cars/:id` | Update listing | Yes |
-| DELETE | `/api/cars/:id` | Delete listing | Yes |
+| Method | Endpoint          | Description          | Auth Required |
+| ------ | ----------------- | -------------------- | ------------- |
+| GET    | `/api/cars`     | Get all car listings | No            |
+| GET    | `/api/cars/:id` | Get car by ID        | No            |
+| POST   | `/api/cars`     | Create new listing   | Yes           |
+| PUT    | `/api/cars/:id` | Update listing       | Yes           |
+| DELETE | `/api/cars/:id` | Delete listing       | Yes           |
 
 ### Favorites Endpoints
 
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| GET | `/api/likes` | Get user favorites | Yes |
-| POST | `/api/likes` | Add to favorites | Yes |
-| DELETE | `/api/likes/:id` | Remove from favorites | Yes |
+| Method | Endpoint           | Description           | Auth Required |
+| ------ | ------------------ | --------------------- | ------------- |
+| GET    | `/api/likes`     | Get user favorites    | Yes           |
+| POST   | `/api/likes`     | Add to favorites      | Yes           |
+| DELETE | `/api/likes/:id` | Remove from favorites | Yes           |
 
 ### Machine Learning Endpoints
 
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/pyscripts/evaluate` | Evaluate car price | No |
-| POST | `/api/pyscripts/forecast` | Predict price trends | No |
+| Method | Endpoint                    | Description          | Auth Required |
+| ------ | --------------------------- | -------------------- | ------------- |
+| POST   | `/api/pyscripts/evaluate` | Evaluate car price   | No            |
+| POST   | `/api/pyscripts/forecast` | Predict price trends | No            |
 
 ### Image Upload Endpoints
 
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/imgs/upload` | Upload car images | Yes |
+| Method | Endpoint             | Description       | Auth Required |
+| ------ | -------------------- | ----------------- | ------------- |
+| POST   | `/api/imgs/upload` | Upload car images | Yes           |
 
-##  Machine Learning Models
+## Machine Learning Models
 
 ### Price Evaluation Model
 
 Located in `backend/pyscripts/evaluate/`
 
 **Features**:
+
 - Province and location
 - Brand and model
 - License year and update time
@@ -307,6 +321,7 @@ Located in `backend/pyscripts/evaluate/`
 - Electric vehicle parameters (range, charge time, battery capacity)
 
 **Models Used**:
+
 - XGBoost (for maximum and minimum price)
 - LightGBM (for maximum and minimum price)
 - Ensemble weighting for final prediction
@@ -316,11 +331,13 @@ Located in `backend/pyscripts/evaluate/`
 Located in `backend/pyscripts/timeseries/`
 
 **Features**:
+
 - Historical price data
 - Macroeconomic indicators (GDP, fuel prices, deals volume)
 - Temporal features
 
 **Models Used**:
+
 - XGBoost time series model
 - LightGBM time series model
 - Weighted ensemble for forecast
@@ -328,12 +345,15 @@ Located in `backend/pyscripts/timeseries/`
 ### Model Training Data
 
 Training datasets are included in:
+
 - `backend/pyscripts/evaluate/dataset/`
 - `backend/pyscripts/timeseries/dataset/`
 
 Pre-trained models are stored in:
+
 - `backend/pyscripts/evaluate/model/`
 - `backend/pyscripts/timeseries/model/`
+
 ---
 
 **Note**: This is a course design project developed by Group 2. The application demonstrates the integration of modern web technologies with machine learning for practical business applications in the used car trading market.

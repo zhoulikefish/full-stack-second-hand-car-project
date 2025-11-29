@@ -1,0 +1,484 @@
+[
+	{
+		"name": "奔驰",
+		"value": 12189,
+		"children": [
+			{
+				"name": "威霆",
+				"value": 411
+			},
+			{
+				"name": "奔驰GLC",
+				"value": 2260
+			},
+			{
+				"name": "奔驰C级",
+				"value": 1099
+			},
+			{
+				"name": "奔驰E级",
+				"value": 1219
+			},
+			{
+				"name": "奔驰G级",
+				"value": 946
+			},
+			{
+				"name": "奔驰S级AMG",
+				"value": 2
+			},
+			{
+				"name": "奔驰SLS级AMG",
+				"value": 1
+			},
+			{
+				"name": "奔驰GLE轿跑",
+				"value": 4
+			},
+			{
+				"name": "奔驰A级",
+				"value": 831
+			},
+			{
+				"name": "奔驰GLA",
+				"value": 778
+			},
+			{
+				"name": "奔驰E级(进口)",
+				"value": 38
+			},
+			{
+				"name": "奔驰CLA",
+				"value": 615
+			},
+			{
+				"name": "奔驰S级",
+				"value": 1209
+			},
+			{
+				"name": "奔驰GLE",
+				"value": 634
+			},
+			{
+				"name": "奔驰GL级",
+				"value": 26
+			},
+			{
+				"name": "奔驰A级AMG",
+				"value": 22
+			},
+			{
+				"name": "AMG GT",
+				"value": 25
+			},
+			{
+				"name": "奔驰R级",
+				"value": 16
+			},
+			{
+				"name": "奔驰GLS",
+				"value": 264
+			},
+			{
+				"name": "迈巴赫S级",
+				"value": 221
+			},
+			{
+				"name": "奔驰A级AMG(进口)",
+				"value": 197
+			},
+			{
+				"name": "迈巴赫GLS",
+				"value": 2
+			},
+			{
+				"name": "奔驰GLC轿跑",
+				"value": 24
+			},
+			{
+				"name": "奔驰C级AMG",
+				"value": 26
+			},
+			{
+				"name": "奔驰GLC AMG",
+				"value": 2
+			},
+			{
+				"name": "奔驰G级AMG",
+				"value": 138
+			},
+			{
+				"name": "奔驰SLK级",
+				"value": 22
+			},
+			{
+				"name": "奔驰EQC",
+				"value": 212
+			},
+			{
+				"name": "奔驰CLS",
+				"value": 3
+			},
+			{
+				"name": "奔驰B级",
+				"value": 12
+			},
+			{
+				"name": "奔驰GLE AMG",
+				"value": 15
+			},
+			{
+				"name": "奔驰V级",
+				"value": 419
+			},
+			{
+				"name": "奔驰M级",
+				"value": 193
+			},
+			{
+				"name": "奔驰GLK级",
+				"value": 37
+			},
+			{
+				"name": "奔驰C级(进口)",
+				"value": 19
+			},
+			{
+				"name": "奔驰GLB",
+				"value": 114
+			},
+			{
+				"name": "奔驰GLE轿跑 AMG",
+				"value": 1
+			},
+			{
+				"name": "奔驰GLA AMG",
+				"value": 2
+			},
+			{
+				"name": "奔驰GLK级(进口)",
+				"value": 2
+			},
+			{
+				"name": "奔驰CLA AMG",
+				"value": 2
+			},
+			{
+				"name": "奔驰EQS",
+				"value": 23
+			},
+			{
+				"name": "奔驰SLC",
+				"value": 3
+			},
+			{
+				"name": "唯雅诺",
+				"value": 1
+			},
+			{
+				"name": "奔驰A级(进口)",
+				"value": 95
+			},
+			{
+				"name": "奔驰E级新能源",
+				"value": 1
+			},
+			{
+				"name": "奔驰GLC轿跑 AMG",
+				"value": 1
+			},
+			{
+				"name": "奔驰E级AMG",
+				"value": 1
+			},
+			{
+				"name": "Sprinter",
+				"value": 1
+			}
+		]
+	},
+	{
+		"name": "宝马",
+		"value": 6878,
+		"children": [
+			{
+				"name": "宝马X3",
+				"value": 462
+			},
+			{
+				"name": "宝马5系",
+				"value": 1205
+			},
+			{
+				"name": "宝马2系",
+				"value": 322
+			},
+			{
+				"name": "宝马M4",
+				"value": 3
+			},
+			{
+				"name": "宝马3系",
+				"value": 1130
+			},
+			{
+				"name": "宝马7系",
+				"value": 461
+			},
+			{
+				"name": "宝马X1新能源",
+				"value": 6
+			},
+			{
+				"name": "宝马X5(进口)",
+				"value": 563
+			},
+			{
+				"name": "宝马X5",
+				"value": 7
+			},
+			{
+				"name": "宝马4系",
+				"value": 40
+			},
+			{
+				"name": "宝马1系",
+				"value": 209
+			},
+			{
+				"name": "宝马3系(进口)",
+				"value": 8
+			},
+			{
+				"name": "宝马6系GT",
+				"value": 137
+			},
+			{
+				"name": "宝马iX3",
+				"value": 134
+			},
+			{
+				"name": "宝马X1",
+				"value": 231
+			},
+			{
+				"name": "宝马5系新能源",
+				"value": 548
+			},
+			{
+				"name": "宝马5系(进口)",
+				"value": 17
+			},
+			{
+				"name": "宝马1系(进口)",
+				"value": 22
+			},
+			{
+				"name": "宝马M2",
+				"value": 2
+			},
+			{
+				"name": "宝马5系GT",
+				"value": 125
+			},
+			{
+				"name": "宝马X6",
+				"value": 185
+			},
+			{
+				"name": "宝马i3",
+				"value": 30
+			},
+			{
+				"name": "宝马i4",
+				"value": 131
+			},
+			{
+				"name": "宝马X7",
+				"value": 295
+			},
+			{
+				"name": "宝马iX",
+				"value": 268
+			},
+			{
+				"name": "宝马3系GT",
+				"value": 10
+			},
+			{
+				"name": "宝马2系多功能旅行车",
+				"value": 131
+			},
+			{
+				"name": "宝马X3(进口)",
+				"value": 12
+			},
+			{
+				"name": "宝马M3",
+				"value": 5
+			},
+			{
+				"name": "宝马8系",
+				"value": 3
+			},
+			{
+				"name": "宝马X5 M",
+				"value": 121
+			},
+			{
+				"name": "宝马M5",
+				"value": 1
+			},
+			{
+				"name": "宝马i8",
+				"value": 8
+			},
+			{
+				"name": "宝马X4",
+				"value": 9
+			},
+			{
+				"name": "宝马X3 M",
+				"value": 10
+			},
+			{
+				"name": "宝马X1(进口)",
+				"value": 2
+			},
+			{
+				"name": "宝马2系旅行车",
+				"value": 6
+			},
+			{
+				"name": "宝马X2",
+				"value": 13
+			},
+			{
+				"name": "宝马X4 M",
+				"value": 1
+			},
+			{
+				"name": "宝马Z4",
+				"value": 4
+			},
+			{
+				"name": "宝马6系",
+				"value": 1
+			}
+		]
+	},
+	{
+		"name": "本田",
+		"value": 864,
+		"children": [
+			{
+				"name": "艾力绅",
+				"value": 31
+			},
+			{
+				"name": "思域",
+				"value": 122
+			},
+			{
+				"name": "雅阁",
+				"value": 108
+			},
+			{
+				"name": "冠道",
+				"value": 21
+			},
+			{
+				"name": "本田XR-V",
+				"value": 96
+			},
+			{
+				"name": "奥德赛",
+				"value": 74
+			},
+			{
+				"name": "飞度",
+				"value": 46
+			},
+			{
+				"name": "凌派",
+				"value": 15
+			},
+			{
+				"name": "本田UR-V",
+				"value": 167
+			},
+			{
+				"name": "本田CR-V",
+				"value": 62
+			},
+			{
+				"name": "缤智",
+				"value": 38
+			},
+			{
+				"name": "皓影",
+				"value": 9
+			},
+			{
+				"name": "竞瑞",
+				"value": 5
+			},
+			{
+				"name": "锋范经典",
+				"value": 5
+			},
+			{
+				"name": "哥瑞",
+				"value": 2
+			},
+			{
+				"name": "思铂睿",
+				"value": 10
+			},
+			{
+				"name": "英仕派",
+				"value": 9
+			},
+			{
+				"name": "杰德",
+				"value": 11
+			},
+			{
+				"name": "锋范",
+				"value": 5
+			},
+			{
+				"name": "LIFE",
+				"value": 2
+			},
+			{
+				"name": "型格",
+				"value": 10
+			},
+			{
+				"name": "本田CR-V新能源",
+				"value": 4
+			},
+			{
+				"name": "思迪",
+				"value": 1
+			},
+			{
+				"name": "歌诗图",
+				"value": 6
+			},
+			{
+				"name": "享域",
+				"value": 2
+			},
+			{
+				"name": "ZR-V 致在",
+				"value": 1
+			},
+			{
+				"name": "皓影新能源",
+				"value": 2
+			}
+		]
+	}
+]
